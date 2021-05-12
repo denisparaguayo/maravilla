@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4703274"
-     inkscape:cx="252.38307"
+     inkscape:cx="103.77671"
      inkscape:cy="310.21292"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -55,7 +55,9 @@
        aria-label="Distribuidora"
        transform="matrix(1.211589,0,0,0.82536239,0,1.0583333)"
        id="text12"
-       style="font-style:normal;font-weight:normal;font-size:8.69072px;line-height:1.25;font-family:sans-serif;fill:#ffbd4a;fill-opacity:1;stroke:none;stroke-width:0.217268">
+       style="font-style:normal;font-weight:normal;font-size:8.69072px;line-height:1.25;font-family:sans-serif;fill:#ffbd4a;fill-opacity:1;stroke:none;stroke-width:0.217268"
+       inkscape:export-xdpi="95.876038"
+       inkscape:export-ydpi="95.876038">
       <g
          id="g1027"
          transform="matrix(1.1268222,0,0,1,-1.2666195,1.282265)"
@@ -118,7 +120,9 @@
        aria-label="MARAVILLA"
        id="text16"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       transform="matrix(1.0291317,0,0,1,3.4689696,0.88554421)">
+       transform="matrix(1.0291317,0,0,1,3.4689696,0.88554421)"
+       inkscape:export-xdpi="95.876038"
+       inkscape:export-ydpi="95.876038">
       <path
          d="m 15.334136,85.677474 -0.01058,-4.444986 -2.18016,3.661822 h -0.772581 l -2.169577,-3.566572 v 4.349736 H 8.5925767 v -7.40831 h 1.4181613 l 2.772826,4.603736 2.730491,-4.603736 h 1.407579 l 0.02117,7.40831 z"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ff0000;fill-opacity:1;stroke-width:0.264583"
@@ -158,7 +162,9 @@
     </g>
     <g
        id="g948"
-       transform="matrix(0.03215974,0,0,0.03301862,82.369785,74.495221)">
+       transform="matrix(0.03215974,0,0,0.03301862,82.369785,74.495221)"
+       inkscape:export-xdpi="95.876038"
+       inkscape:export-ydpi="95.876038">
       <path
          d="M 176,312 V 151.494 a 16,16 0 0 0 -5.757,-12.292 L 128,104 H 80 L 37.757,139.2 A 16,16 0 0 0 32,151.494 V 312 a 16,16 0 0 0 16,16 16,16 0 0 0 -16,16 16,16 0 0 0 16,16 16,16 0 0 0 -16,16 16,16 0 0 0 16,16 16,16 0 0 0 -16,16 16,16 0 0 0 16,16 16,16 0 0 0 -16,16 v 16 a 32,32 0 0 0 32,32 h 80 a 32,32 0 0 0 32,-32 v -16 a 16,16 0 0 0 -16,-16 16,16 0 0 0 16,-16 16,16 0 0 0 -16,-16 16,16 0 0 0 16,-16 16,16 0 0 0 -16,-16 16,16 0 0 0 16,-16 16,16 0 0 0 -16,-16 16,16 0 0 0 16,-16 z"
          fill="#ffd33a"
@@ -216,7 +222,9 @@
        aria-label="Aceite Comestible"
        id="text952"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffbd4a;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       transform="matrix(1.381617,0,0,1,-5.3755352,-1.3917563)">
+       transform="matrix(1.381617,0,0,1,-5.3755352,-1.3917563)"
+       inkscape:export-xdpi="95.876038"
+       inkscape:export-ydpi="95.876038">
       <path
          d="m 16.162068,93.867683 h -0.47625 q -0.08255,0 -0.13335,-0.04127 -0.0508,-0.04127 -0.0762,-0.104775 l -0.42545,-1.09855 h -2.041525 l -0.42545,1.09855 q -0.02223,0.05715 -0.0762,0.1016 -0.05397,0.04445 -0.13335,0.04445 h -0.47625 l 1.819275,-4.549775 h 0.625475 z m -2.981325,-1.6891 h 1.698625 l -0.714375,-1.851025 q -0.06985,-0.17145 -0.136525,-0.428625 -0.03492,0.130175 -0.06985,0.2413 -0.03175,0.10795 -0.0635,0.1905 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ffbd4a;fill-opacity:1;stroke-width:0.264583"
