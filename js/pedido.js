@@ -35,7 +35,13 @@ function evenListener() {
 		function success(geolocationPosition) {
 			let coords = geolocationPosition.coords;
 			let { latitude, longitude, accuracy } = coords;
-			ubiHide = `https://www.google.com/maps/@${latitude},${longitude},20z`;
+			ubiHide =
+				'https://www.google.com/maps/@' +
+				latitude +
+				',' +
+				longitude +
+				',' +
+				'20z';
 			const mensajeUbi = document.createElement('p');
 			mensajeUbi.textContent = `Ubicacion Encontrada Precicion: ${accuracy}, Metros`;
 			mensajeUbi.classList.add('alert', 'alert-success', 'text-center');
