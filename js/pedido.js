@@ -84,7 +84,7 @@ function evenListener() {
 		}
 	}
 
-	formulario.addEventListener('submit', enviarEmail);
+	// formulario.addEventListener('submit', enviarEmail);
 }
 
 //Funciones
@@ -108,10 +108,10 @@ function sumarTotal() {
 	}
 }
 
-function enviarEmail(e) {
-	e.preventDefault();
-	alert('Mensaje enviado');
-	setTimeout(() => {
-		window.location.href = 'index.html';
-	}, 2000);
-}
+// function enviarEmail(e) {
+// 	e.preventDefault();
+// 	alert('Mensaje enviado');
+// 	setTimeout(() => {
+// 		window.location.href = 'index.html';
+// 	}, 2000);
+// }
