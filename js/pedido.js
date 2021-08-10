@@ -35,7 +35,7 @@ function evenListener() {
 		function success(geolocationPosition) {
 			let coords = geolocationPosition.coords;
 			let { latitude, longitude, accuracy } = coords;
-			ubiHide =
+			ubiHide.value =
 				'https://www.google.com/maps/@' +
 				latitude +
 				',' +
