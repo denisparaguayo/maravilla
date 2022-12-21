@@ -10,7 +10,7 @@ const er = /^([0-9])*$/;
 
 let tuUbi;
 
-const precio = 8500;
+const precio = 12500;
 
 evenListener();
 function evenListener() {
