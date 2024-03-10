@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebApp de Pedidos</title>
+		<!-- Agrega los enlaces a Tailwind CSS y otros estilos aquí -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="js/Pedido.js"></script>
+	</head>
+	<body class="font-sans bg-gray-100">
+		<div class="container mx-auto mt-8 p-4">
+			<h1 class="text-3xl font-bold mb-4">Generar Pedido</h1>
+
+			<!-- Formulario de Selección de Productos -->
+			<form id="pedidoForm" class="mb-8">
+				<!-- Sección de Nombre del Cliente -->
+				<div class="mb-4">
+					<label for="nombreCliente" class="block mb-2"
+						>Nombre del Cliente:</label
+					>
+					<input
+						type="text"
+						id="nombreCliente"
+						name="nombreCliente"
+						class="w-full p-2"
+						required />
+				</div>
+
+				<!-- Sección de Fecha de Entrega -->
+				<div class="mb-4">
+					<label for="fechaEntrega" class="block mb-2">Fecha de Entrega:</label>
+					<input
+						type="date"
+						id="fechaEntrega"
+						name="fechaEntrega"
+						class="w-full p-2"
+						required />
+				</div>
+				<button onclick="obtenerUbicacion()">Guardar Ubicación GPS</button>
+				<!-- Sección de Tipo de Precio -->
+				<div class="mb-4">
+					<label for="tipoPrecio" class="block mb-2">Tipo de Precio:</label>
+					<select id="tipoPrecio" name="tipoPrecio" class="w-full p-2">
+						<option value="normal">Normal</option>
+						<option value="mayorista">Mayorista</option>
+						<option value="superM">Super Mayorista</option>
+					</select>
+				</div>
+				<!-- Sección de Selección de Productos -->
+				<div class="mb-4">
+					<label for="producto" class="block mb-2">Seleccionar Producto:</label>
+					<select id="producto" name="producto" class="w-full p-2">
+						<!-- Opciones de productos se cargarán dinámicamente -->
+					</select>
+				</div>
+
+				<!-- Sección de Cantidad -->
+				<div class="mb-4">
+					<label for="cantidad" class="block mb-2">Cantidad:</label>
+					<input
+						type="number"
+						id="cantidad"
+						name="cantidad"
+						class="w-full p-2"
+						min="1"
+						value="1" />
+				</div>
+
+				<!-- Botón para Agregar Producto -->
+				<div class="flex">
+					<button
+						type="button"
+						onclick="agregarProducto()"
+						class="bg-green-500 text-white px-4 py-2 mr-2 w-full">
+						Agregar Producto
+					</button>
+					<button
+						type="button"
+						onclick="resetearPedido()"
+						class="bg-gray-500 text-white px-4 py-2 w-full">
+						Resetear Pedido
+					</button>
+				</div>
+			</form>
+
+			<!-- Lista Preliminar de Productos -->
+
+			<div id="listaProductos" class="mb-8 space-y-2">
+				<!-- Aquí se mostrarán los productos agregados dinámicamente -->
+			</div>
+
+			<!-- Total del Pedido -->
+			<div id="totalPedido" class="mb-8">
+				<h2 class="text-xl font-bold mb-2">Total del Pedido</h2>
+				<p id="montoTotal">Gs. 0</p>
+			</div>
+		</div>
+
+		<!-- Modal -->
+		<div
+			id="modal"
+			class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 hidden">
+			<div class="flex items-center justify-center h-full">
+				<div class="bg-white p-8 rounded-lg w-96">
+					<!-- Contenido del modal -->
+					<h2 class="text-2xl font-bold mb-4">Resumen del Pedido</h2>
+
+					<!-- Mostrar nombre del cliente y fecha de entrega -->
+					<p class="mb-4">
+						<strong>Cliente:</strong> <span id="modalNombreCliente"></span>
+					</p>
+					<p class="mb-4">
+						<strong>Fecha de Entrega:</strong>
+						<span id="modalFechaEntrega"></span>
+					</p>
+
+					<!-- Lista de productos detallada -->
+					<div id="modalListaProductos" class="mb-4"></div>
+
+					<!-- Total del Pedido en el modal -->
+					<p class="font-bold text-lg mb-4">
+						Total: <span id="modalMontoTotal">Gs. 0</span>
+					</p>
+
+					<!-- Botones para Confirmar y Cerrar en el modal -->
+					<div class="flex justify-between">
+						<button
+							id="btnConfirmarModal"
+							class="bg-blue-500 text-white px-4 py-2">
+							Confirmar Pedido
+						</button>
+						<button
+							id="btnCerrarModal"
+							class="bg-gray-500 text-white px-4 py-2">
+							Cerrar
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Botón para abrir el Modal -->
+		<button
+			type="button"
+			onclick=" mostrarResumenYConfirmar()"
+			class="bg-blue-500 text-white px-4 py-2 mt-4">
+			Generar Pedido
+		</button>
+	</body>
+</html>

@@ -10,7 +10,7 @@
 
 		<!-- Meta tags -->
 		<!-- Primary Meta Tags -->
-		<title>Distribuidora Maravilla | Preguntas Frecuentes</title>
+		<title>Distribuidora Maravilla | Contacto</title>
 		<meta
 			name="description"
 			content="Distribuidora Maravilla: Mayorista de productos de limpieza en Asunción, Paraguay. Descubre nuestra variedad de productos de limpieza al por mayor, desde detergentes hasta soluciones especializadas. Calidad y servicio excepcionales para mantener tus espacios impecables. ¡Realiza tu pedido hoy y disfruta de envíos a Asunción y alrededores!" />
@@ -113,7 +113,7 @@
 		<meta name="theme-color" content="#ffffff" />
 
 		<!-- Core theme CSS -->
-		<link rel="stylesheet" href="css/styles.css" />
+
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -196,8 +196,72 @@
 			</div>
 		</nav>
 
-		<!-- Contenido -->
-		<!-- Contenido -->
+		<!-- Contenido Principal -->
+		<main
+			class="max-w-screen-md mx-auto my-8 p-4 bg-white rounded-md shadow-md">
+			<!-- Sección de Contacto -->
+			<section class="mb-8">
+				<h2 class="text-2xl font-bold mb-4 text-center">Contacto</h2>
+				<p class="mb-4">
+					¡Estamos aquí para ayudarte! Contáctanos a través del formulario o
+					visítanos en nuestra dirección.
+				</p>
+
+				<!-- Formulario de Contacto -->
+				<form
+					action="/gracias"
+					name="contactoWeb"
+					method="POST"
+					netlify
+					class="flex flex-col gap-4">
+					<label for="nombre" class="font-bold">Nombre:</label>
+					<input
+						type="text"
+						id="nombre"
+						name="nombre"
+						required
+						class="p-2 border border-gray-300 rounded-md" />
+
+					<label for="email" class="font-bold">Correo electrónico:</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						required
+						class="p-2 border border-gray-300 rounded-md" />
+
+					<label for="mensaje" class="font-bold">Mensaje:</label>
+					<textarea
+						id="mensaje"
+						name="mensaje"
+						rows="4"
+						required
+						class="p-2 border border-gray-300 rounded-md"></textarea>
+
+					<button
+						type="submit"
+						class="bg-amber-500 text-white px-6 py-3 rounded-full font-bold hover:bg-amber-600 transition duration-300">
+						Enviar Mensaje
+					</button>
+				</form>
+			</section>
+
+			<!-- Información de Contacto -->
+			<section>
+				<h2 class="text-2xl font-bold mb-4 text-center">
+					Información de Contacto
+				</h2>
+				<p class="mb-2">
+					Número de Teléfono: <span class="font-bold">0986 550-235</span>
+				</p>
+				<p>
+					Dirección: <span class="font-bold"
+						>Guaraníes 4779 e/ Hipólito Sanchez y Tte. Adalberto Ramírez
+						Franco</span
+					>
+				</p>
+			</section>
+		</main>
 
 		<!-- Footer -->
 		<footer class="bg-gray-800 text-white p-4 bottom-0 w-full">

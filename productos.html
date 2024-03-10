@@ -10,7 +10,7 @@
 
 		<!-- Meta tags -->
 		<!-- Primary Meta Tags -->
-		<title>Distribuidora Maravilla | Preguntas Frecuentes</title>
+		<title>Distribuidora Maravilla | Productos</title>
 		<meta
 			name="description"
 			content="Distribuidora Maravilla: Mayorista de productos de limpieza en Asunción, Paraguay. Descubre nuestra variedad de productos de limpieza al por mayor, desde detergentes hasta soluciones especializadas. Calidad y servicio excepcionales para mantener tus espacios impecables. ¡Realiza tu pedido hoy y disfruta de envíos a Asunción y alrededores!" />
@@ -113,7 +113,7 @@
 		<meta name="theme-color" content="#ffffff" />
 
 		<!-- Core theme CSS -->
-		<link rel="stylesheet" href="css/styles.css" />
+
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -161,7 +161,6 @@
 					<a href="/contacto" class="hover:text-amber-500">Contacto</a>
 					<a href="/faq" class="hover:text-amber-500">Preguntas Frecuentes</a>
 				</div>
-
 				<!-- Menú desplegable para dispositivos móviles -->
 				<div class="sm:hidden">
 					<button id="menu-toggle" class="text-white focus:outline-none">
@@ -180,7 +179,6 @@
 					</button>
 				</div>
 			</div>
-
 			<!-- Menú desplegable para dispositivos móviles -->
 			<div id="mobile-menu" class="hidden sm:hidden mt-2">
 				<a href="/" class="block px-4 py-2 text-sm hover:bg-gray-200">Inicio</a>
@@ -197,7 +195,19 @@
 		</nav>
 
 		<!-- Contenido -->
-		<!-- Contenido -->
+		<main class="container mx-auto py-8 text-center">
+			<h1 class="text-4xl font-bold text-white mb-8">
+				Nuestros
+				<span class="underline decoration-amber-500">Productos</span>
+			</h1>
+
+			<!-- Sección de productos utilizando flexbox y grid para responsividad -->
+			<div
+				id="productosGrid"
+				class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4">
+				<!-- La lista de productos se generará aquí -->
+			</div>
+		</main>
 
 		<!-- Footer -->
 		<footer class="bg-gray-800 text-white p-4 bottom-0 w-full">
@@ -250,6 +260,7 @@
 				</div>
 			</div>
 		</footer>
+
 		<!-- Core theme JS-->
 		<script src="js/scripts.js"></script>
 	</body>

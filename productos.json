@@ -1,0 +1,306 @@
+[
+	{
+		"id": 1,
+		"nombre": "DETERGENTE MULTIUSO ALCALINO, NEUTRO 500 ml",
+		"precio": 2500,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/15.webp",
+		"descripcion": "Detergente multiuso alcalino y neutro en presentación de 500 ml. Ideal para limpieza del hogar. Destaca por su eficacia y versatilidad. ¡Mantén tu hogar impecable con este increíble detergente!"
+	},
+	{
+		"id": 2,
+		"nombre": "DETERGENTE MULTIUSO ALCALINO, NEUTRO 900 ml",
+		"precio": 5000,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/16.webp",
+		"descripcion": "Detergente multiuso alcalino y neutro en presentación de 900 ml. Perfecto para eliminar la suciedad más difícil. ¡Descubre la potencia de limpieza que ofrece este detergente para el hogar!"
+	},
+	{
+		"id": 3,
+		"nombre": "DETERGENTE MULTIUSO ALCALINO, NEUTRO 5 lts",
+		"precio": 13000,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/15.webp",
+		"descripcion": "Detergente multiuso alcalino y neutro en presentación de 5 litros. Con su fórmula concentrada, ofrece un rendimiento excepcional en la limpieza. ¡Haz que tu hogar brille con este detergente de alta calidad!"
+	},
+	{
+		"id": 4,
+		"nombre": "JABÓN LÍQUIDO PARA ROPA CLÁSICO 900 ml",
+		"precio": 8000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/10.webp",
+		"descripcion": "Jabón líquido para ropa en presentación clásica de 900 ml. Limpia y suaviza tus prendas favoritas. Descubre la frescura y limpieza que aporta este jabón para ropa."
+	},
+	{
+		"id": 5,
+		"nombre": "JABÓN LÍQUIDO PARA ROPA CLÁSICO 2 lts",
+		"precio": 13000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/10.webp",
+		"descripcion": "Jabón líquido para ropa en presentación clásica de 2 litros. Fórmula concentrada para un mayor rendimiento. Dale a tu ropa el cuidado que se merece con este jabón líquido."
+	},
+	{
+		"id": 6,
+		"nombre": "JABÓN LÍQUIDO PARA ROPA CLÁSICO 3 lts",
+		"precio": 20000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/10.webp",
+		"descripcion": "Jabón líquido para ropa en presentación clásica de 3 litros. Mayor cantidad para un mayor número de lavados. Disfruta de la frescura y suavidad que proporciona este jabón líquido."
+	},
+	{
+		"id": 7,
+		"nombre": "JABÓN LÍQUIDO PARA ROPA CLÁSICO 5 lts",
+		"precio": 30000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/10.webp",
+		"descripcion": "Jabón líquido para ropa en presentación clásica de 5 litros. Ideal para familias grandes o lavanderías. Experimenta la eficacia y aroma duradero de este jabón para el cuidado de tu ropa."
+	},
+	{
+		"id": 8,
+		"nombre": "DESENGRASANTE INDUSTRIAL 1 lts",
+		"precio": 10000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/14.webp",
+		"descripcion": "Desengrasante industrial en presentación de 1 litro. Fórmula potente para eliminar grasa y residuos difíciles. Perfecto para uso en cocinas y áreas industriales."
+	},
+	{
+		"id": 9,
+		"nombre": "DESENGRASANTE INDUSTRIAL 5 lts",
+		"precio": 55000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/14.webp",
+		"descripcion": "Desengrasante industrial en presentación de 5 litros. Alto rendimiento para limpieza profunda. Conquista las manchas más difíciles con este desengrasante de calidad industrial."
+	},
+	{
+		"id": 10,
+		"nombre": "LAVANDINA AL 2.5% 1 lts",
+		"precio": 2500,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/11.webp",
+		"descripcion": "Lavandina al 2.5% en presentación de 1 litro. Desinfecta y blanquea de manera efectiva. Asegura la higiene en tu hogar con esta lavandina de confianza."
+	},
+	{
+		"id": 11,
+		"nombre": "LAVANDINA AL 2.5% 5 lts",
+		"precio": 8000,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/11.webp",
+		"descripcion": "Lavandina al 2.5% en presentación de 5 litros. La cantidad perfecta para un uso prolongado. Mantén tus espacios libres de gérmenes y bacterias con esta lavandina de gran capacidad."
+	},
+	{
+		"id": 12,
+		"nombre": "LAVANDINA AL 5% 5 lts",
+		"precio": 14000,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/11.webp",
+		"descripcion": "Lavandina al 5% en presentación de 5 litros. Fórmula concentrada para una desinfección más potente. Asegura la máxima protección en tu hogar con esta lavandina de calidad."
+	},
+	{
+		"id": 13,
+		"nombre": "LAVANDINA AL 12% 5 lts",
+		"precio": 35000,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/11.webp",
+		"descripcion": "Lavandina al 12% en presentación de 5 litros. La opción más fuerte para una desinfección extrema. Ideal para situaciones que requieren un nivel superior de higiene."
+	},
+	{
+		"id": 14,
+		"nombre": "CLARIFICANTE P/ PISCINA GRANULADO 1 kg",
+		"precio": 42000,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/14.webp",
+		"descripcion": "Clarificante para piscina en formato granulado de 1 kg. Mantiene el agua de tu piscina cristalina y libre de impurezas. Asegura un ambiente acuático saludable con este clarificante de calidad."
+	},
+	{
+		"id": 15,
+		"nombre": "CLORO P/ PISCINA GRANULADO 1 kg",
+		"precio": 40000,
+		"categoria": "Hogar",
+		"imagen": "assets/img/productos/15.webp",
+		"descripcion": "Cloro para piscina en formato granulado de 1 kg. Desinfección efectiva para el agua de la piscina. Disfruta de un oasis de frescura y limpieza con este cloro granulado."
+	},
+	{
+		"id": 16,
+		"nombre": "DESODORANTE DE PISO  900 ml",
+		"precio": 4000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/7.webp",
+		"descripcion": "Desodorante de piso en variedad de fragancias (Pino, Cherry, Marina, Eucalipto, Lavanda, Primavera, Chicle) en presentación de 900 ml. Aromatiza y desodoriza tus espacios de manera efectiva."
+	},
+	{
+		"id": 17,
+		"nombre": "DESODORANTE DE PISO  5 lts",
+		"precio": 12000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/2.webp",
+		"descripcion": "Desodorante de piso en variedad de fragancias (Pino, Cherry, Marina, Eucalipto, Lavanda, Primavera, Chicle) en presentación de 5 litros. Mantén tus ambientes frescos y con agradables olores con este desodorante de gran capacidad."
+	},
+	{
+		"id": 18,
+		"nombre": "JABÓN LÍQUIDO PARA MANOS CHICLE 900 ml",
+		"precio": 7000,
+		"categoria": "Cuidado Personal",
+		"imagen": "assets/img/productos/9.webp",
+		"descripcion": "Jabón líquido para manos con fragancia a chicle en presentación de 900 ml. Limpieza y cuidado para tus manos con un delicioso aroma. Dale a tus rutinas de higiene un toque especial con este jabón líquido."
+	},
+	{
+		"id": 19,
+		"nombre": "JABÓN LÍQUIDO PARA MANOS FRUTILLA 900 ml",
+		"precio": 7000,
+		"categoria": "Cuidado Personal",
+		"imagen": "assets/img/productos/9.webp",
+		"descripcion": "Jabón líquido para manos con fragancia a frutilla en presentación de 900 ml. Limpieza suave y frescura para tus manos. Disfruta de una experiencia sensorial única con este jabón líquido de calidad."
+	},
+	{
+		"id": 20,
+		"nombre": "LIMPIA VIDRIOS Botella Pet 900 ml",
+		"precio": 9000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/12.webp",
+		"descripcion": "Limpiavidrios en presentación de 900 ml, en cómoda botella PET. Logra vidrios impecables y sin manchas con este limpiavidrios de calidad. La solución perfecta para mantener tus cristales relucientes."
+	},
+	{
+		"id": 21,
+		"nombre": "LIMPIA VIDRIOS C/ ATOMIZADOR 900 ml",
+		"precio": 20000,
+		"categoria": "Limpieza",
+		"imagen": "assets/img/productos/12.webp",
+		"descripcion": "Limpiavidrios en presentación de 900 ml con práctico atomizador. Logra una limpieza eficiente en vidrios y superficies acristaladas. La solución ideal para un hogar impecable."
+	},
+	{
+		"id": 22,
+		"nombre": "SUAVIZANTE PARA ROPA COLONIA 900 ml",
+		"precio": 6000,
+		"categoria": "Cuidado del Hogar",
+		"imagen": "assets/img/productos/3.webp",
+		"descripcion": "Suavizante para ropa con agradable fragancia a colonia en presentación de 900 ml. Dale a tus prendas un toque de suavidad y frescura con este suavizante de calidad."
+	},
+	{
+		"id": 23,
+		"nombre": "SUAVIZANTE PARA ROPA COLONIA 3 lts",
+		"precio": 15000,
+		"categoria": "Cuidado del Hogar",
+		"imagen": "assets/img/productos/3.webp",
+		"descripcion": "Suavizante para ropa con delicada fragancia a colonia en presentación de 3 litros. Acondiciona y suaviza tus prendas con este suavizante de gran capacidad."
+	},
+	{
+		"id": 24,
+		"nombre": "SUAVIZANTE PARA ROPA FRANCIA 900 ml",
+		"precio": 6000,
+		"categoria": "Cuidado del Hogar",
+		"imagen": "assets/img/productos/4.webp",
+		"descripcion": "Suavizante para ropa con agradable fragancia a francia en presentación de 900 ml. Dale un toque fresco y suave a tu ropa con este suavizante de calidad."
+	},
+	{
+		"id": 25,
+		"nombre": "SUAVIZANTE PARA ROPA FRANCIA 3 lts",
+		"precio": 15000,
+		"categoria": "Cuidado del Hogar",
+		"imagen": "assets/img/productos/4.webp",
+		"descripcion": "Suavizante para ropa con delicada fragancia a francia en presentación de 3 litros. Acondiciona y suaviza tus prendas con este suavizante de gran capacidad."
+	},
+	{
+		"id": 26,
+		"nombre": "SUAVIZANTE PARA ROPA COLONIA 5 lts",
+		"precio": 25000,
+		"categoria": "Cuidado del Hogar",
+		"imagen": "assets/img/productos/4.webp",
+		"descripcion": "Suavizante para ropa con agradable fragancia a colonia en presentación de 5 litros. Acondiciona y suaviza tus prendas con este suavizante de gran capacidad, perfecto para el cuidado de la ropa de toda la familia."
+	},
+	{
+		"id": 27,
+		"nombre": "Bolsa Economica  40 litros x10",
+		"precio": 850,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/19.webp",
+		"descripcion": "Conjunto de 10 bolsas económicas de color negro con capacidad de 40 litros cada una. Bolsas ideales para el uso diario, resistentes y versátiles para diversas necesidades de almacenamiento."
+	},
+	{
+		"id": 28,
+		"nombre": "Bolsa /Baño Blanco 50 Litros x10",
+		"precio": 900,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/18.webp",
+		"descripcion": "Conjunto de 10 bolsas blancas ideales para el baño, con capacidad de 50 litros cada una. Bolsas resistentes y prácticas para la disposición de residuos en el hogar."
+	},
+	{
+		"id": 29,
+		"nombre": "Bolsa Económica 70 Litros x10",
+		"precio": 1100,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/19.webp",
+		"descripcion": "Conjunto de 10 bolsas económicas de color negro con capacidad de 70 litros cada una. Bolsas espaciosas y resistentes, ideales para diversas necesidades de almacenamiento en el hogar."
+	},
+	{
+		"id": 30,
+		"nombre": "Bolsa Económica 80 Litros x10",
+		"precio": 1350,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/19.webp",
+		"descripcion": "Conjunto de 10 bolsas económicas de color negro con capacidad de 80 litros cada una. Bolsas resistentes y de gran capacidad, perfectas para manejar grandes cantidades de residuos."
+	},
+	{
+		"id": 31,
+		"nombre": "Bolsa Económica 100 litros x10",
+		"precio": 1900,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/19.webp",
+		"descripcion": "Conjunto de 10 bolsas económicas de color negro con capacidad de 100 litros cada una. Bolsas espaciosas y resistentes, ideales para la gestión eficiente de residuos en el hogar."
+	},
+	{
+		"id": 32,
+		"nombre": "Bolsa Reforzada Verde 100 Litros x10",
+		"precio": 3400,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/21.webp",
+		"descripcion": "Conjunto de 10 bolsas reforzadas de color verde con capacidad de 100 litros cada una. Bolsas resistentes y duraderas, ideales para la gestión de residuos pesados y voluminosos."
+	},
+	{
+		"id": 33,
+		"nombre": "Bolsa Económica Negro 150 Litros x10",
+		"precio": 2950,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/19.webp",
+		"descripcion": "Conjunto de 10 bolsas económicas de color negro con capacidad de 150 litros cada una. Bolsas espaciosas y fuertes, diseñadas para manejar grandes cantidades de residuos en entornos domésticos."
+	},
+	{
+		"id": 34,
+		"nombre": "Bolsa Reforzada Verde 150 Litros x10",
+		"precio": 4800,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/21.webp",
+		"descripcion": "Conjunto de 10 bolsas reforzadas de color verde con capacidad de 150 litros cada una. Bolsas resistentes y de alta capacidad, ideales para la disposición de residuos voluminosos y pesados."
+	},
+	{
+		"id": 35,
+		"nombre": "Bolsa Económica Negro 200 Litros x10",
+		"precio": 3900,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/19.webp",
+		"descripcion": "Conjunto de 10 bolsas económicas de color negro con capacidad de 200 litros cada una. Bolsas espaciosas y resistentes, perfectas para la gestión de grandes volúmenes de residuos en entornos domésticos."
+	},
+	{
+		"id": 36,
+		"nombre": "Bolsa Reforzada Verde 200 Litros x10",
+		"precio": 6500,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/21.webp",
+		"descripcion": "Conjunto de 10 bolsas reforzadas de color verde con capacidad de 200 litros cada una. Bolsas robustas y de gran capacidad, diseñadas para manejar grandes volúmenes de residuos domésticos."
+	},
+	{
+		"id": 37,
+		"nombre": "Bolsa Reforzada Negro 200 Litros x10",
+		"precio": 6300,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/20.webp",
+		"descripcion": "Conjunto de 10 bolsas reforzadas de color negro con capacidad de 200 litros cada una. Bolsas resistentes y duraderas, ideales para la disposición de residuos pesados en el hogar."
+	},
+	{
+		"id": 38,
+		"nombre": "Bolsa Reforzada Negro 300 Litros x10",
+		"precio": 11800,
+		"categoria": "Bolsas",
+		"imagen": "assets/img/productos/20.webp",
+		"descripcion": "Conjunto de 10 bolsas reforzadas de color negro con capacidad de 300 litros cada una. Bolsas resistentes y de gran capacidad, ideales para la gestión de grandes cantidades de residuos en entornos domésticos."
+	}
+]
