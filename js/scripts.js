@@ -46,10 +46,12 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Verificar si el contenedor existe antes de intentar cargar los productos
 	if (productosGrid) {
 		// Generar dinámicamente los elementos HTML para cada producto
+
 		fetch(jsonPath)
 			.then((response) => response.json())
 			.then((productos) => {
 				productos.forEach((producto) => {
+					const precioConDescuento = producto.precio * 1.37;
 					const productoHTML = `
                         <a href="producto.html?id=${
 													producto.id
@@ -64,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 <p class="text-sm text-gray-600">${
 																	producto.categoria
 																}</p>
-                                <p class="text-lg font-bold text-white mt-2">₲${producto.precio.toLocaleString()}</p>
+                                <p class="text-lg font-bold text-gray-600 mt-2">₲${precioConDescuento.toLocaleString()}</p>
                             </div>
                         </a>
                     `;
